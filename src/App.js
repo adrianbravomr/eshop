@@ -1,5 +1,5 @@
 import { useState }  from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -66,7 +66,7 @@ const App = () => {
   }
 
   const app = 
-  <BrowserRouter>
+  <HashRouter>
     <Nav cart={cart} />
     <div className='content'>
       <div className='page-view'>
@@ -131,7 +131,7 @@ const App = () => {
       </div>
       <Footer/>
     </div>
-  </BrowserRouter>
+  </HashRouter>
   return (
     app
   );
