@@ -66,7 +66,7 @@ const App = () => {
   }
 
   const app = 
-  <HashRouter>
+  <HashRouter basename="/">
     <Nav cart={cart} />
     <div className='content'>
       <div className='page-view'>

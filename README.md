@@ -11,6 +11,7 @@ This is a practice project from The Odin Project, objective was to create a resp
 - React
 - Webpack
 - Jest
+- React-router-dom
 
 # To be done
 - Unit tests
