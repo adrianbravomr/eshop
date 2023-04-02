@@ -1,0 +1,8 @@
+.inventory-preview{
+  padding: var(--padding);
+  display: flex;
+  gap: var(--gap);
+  width: 95%;
+  justify-content:center;
+  flex-wrap: wrap;
+}

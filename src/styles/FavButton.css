@@ -1,0 +1,15 @@
+.favorites-icon{
+  margin-top: 5px;
+  margin-left: 5px;
+  align-self: flex-start;
+  cursor: pointer;
+  color:lightgray;
+}
+
+.favorites-icon.fav{
+  color: red;
+}
+
+.favorites-icon:hover{
+  color:red;
+}

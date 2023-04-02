@@ -1,0 +1,20 @@
+.comment-cont{
+  display: flex;
+  flex-direction: column;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: 20px;
+  background-color: var(--block-color);
+}
+
+.comment-name{
+  font-weight: bold;
+}
+
+.comment-date{
+  font-size: 90%;
+}
+
+.comment-text{
+  padding-top: var(--padding);
+}
